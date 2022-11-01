@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="./libs/angular.js"></script>
     <script src="./js/app.js"></script>
-    <script src="./js/controllers/main.js"></script>
+    <script src="./js/controllers/mainController.js"></script>
 </head>
 
 <body ng-controller="listaTelefonicaCtrl">
@@ -67,7 +67,7 @@
         <button class="btn btn-danger btn-block" ng-click="apagarContatos(contatos)"
             ng-if="isContatoSelecionado(contatos)"> apagar contatos</button>
     </div>
-    <div ng-include="'footer.html'"></div>
+    <div ng-include="'view/footer.html'"></div>
 </body>
 
 </html>
