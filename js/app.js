@@ -1,0 +1,1 @@
+angular.module("listaTelefonica",[]) // isso cria um módulo
